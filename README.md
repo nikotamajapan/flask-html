@@ -8,3 +8,7 @@ git cloneで新しいフォルダに引っ越ししてきた場合は
   225  pip install flask
   228  export FLASK_APP=hello
   229  flask run
+
+debug mode 
+変更のためにサーバー起動するのがめんどくさいのでおまじない
+   % export FLASK_DEBUG=True
